@@ -1,8 +1,14 @@
 @import "vars.scss";
+@import "fonts.scss";
 
 html, body{
     background-color: $white;
     scroll-behavior: smooth;
+    font-family: $font;
+}
+
+a{
+    text-decoration: none;
 }
 
 nav{
@@ -10,5 +16,34 @@ nav{
     img{
         width: 180px;
         height: auto;
+    }
+}
+
+._bg-black{
+    background-color: $black !important;
+}
+._text-white{
+    color: $white;
+}
+
+._card1{
+    background-color: $less_dark;
+    box-shadow: 0px 0px 45px #fff;
+}
+
+._text-accent{
+    color: $accent;
+}
+
+a._text-accent:hover{
+    color: $accent_hover;
+}
+
+._section4{
+    background-image: url('../img/bottom.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    ._section4-1{
+        background-color: $white;
     }
 }

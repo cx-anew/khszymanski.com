@@ -29,30 +29,46 @@
                         <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">O mnie</a>
+                        <a class="nav-link active" aria-current="page" href="#about">O mnie</a>
+                    </li>
+                    <li class="nav-item dropup">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Projekty
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sqmaj.html">Sqmaj CRM</a></li>
+                            <li><a class="dropdown-item" href="crm.html">CRM</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#projects">Projekty</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Projekty</a>
+                        <a class="nav-link active" aria-current="page" href="https://github.com/cx-anew"
+                            target="_blank">Github</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Kontakt</a>
+                        <a class="nav-link active" aria-current="page" href="#contact">Kontakt</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- ========== /MENU ========== !-->
+
+    <!-- ========== SECTION 1 - HOME ========== !-->
     <a name="home"></a>
-    <div class="container-fluid p-5 p-md-0 vh-100">
+    <div class="container-fluid p-5 p-md-0 vh-100 _section1">
         <div class="row d-flex align-items-center vh-100">
             <div class="col-12 col-md-7">
                 <h1 class="col-12 col-md-6 offset-md-4">
                     K. Hubert Szymański<br>
                 </h1>
                 <p class="lead col-12 col-md-6 offset-md-4">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex ab quam voluptatibus aliquam assumenda
-                    beatae, temporibus aut eum placeat, dolor quasi est consequatur. Aspernatur rem architecto iste?
-                    Praesentium, repudiandae temporibus?
+                    Programista samouk • Specjalista IT • Fotograf • Social media menadzer • <a
+                        href="http://cx-anew.com" class="_text-accent" target="_blank">CX anew</a>
                 </p>
             </div>
             <div class="col-md-5">
@@ -60,14 +76,18 @@
             </div>
         </div>
     </div>
+    <!-- ========== /SECTION 1 ========== !-->
 
-
-
-    <div class="container-fluid p-5 p-md-0 vh-100">
+    <!-- ========== SECTION 2 - O MNIE ========== !-->
+    <a name="about"></a>
+    <div class="container-fluid p-5 p-md-0 vh-100 _bg-black _text-white _section2">
         <div class="row d-flex align-items-center vh-100">
+            <div class="col-md-5 d-none d-md-block">
+                <img src="img/khs_transparent2.png" alt="Hero" class="img-fluid w-75 float-end">
+            </div>
             <div class="col-12 col-md-7">
                 <h1 class="col-12 col-md-6 offset-md-4">
-                    K. Hubert Szymański
+                    Kilka słów o mnie<br>
                 </h1>
                 <p class="lead col-12 col-md-6 offset-md-4">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex ab quam voluptatibus aliquam assumenda
@@ -75,11 +95,60 @@
                     Praesentium, repudiandae temporibus?
                 </p>
             </div>
+        </div>
+    </div>
+    <!-- ========== /SECTION 2 ========== !-->
+
+    <!-- ========== SECTION 3 - PROJEKTY ========== !-->
+    <a name="projects"></a>
+    <div class="container-fluid p-5 p-md-0 min-vh-100 _bg-black _text-white _section3 mb-5">
+        <div class="row d-flex align-items-center min-vh-100">
+            <div class="col-12 col-lg-7">
+                <h1 class="col-12 col-md-6 offset-md-4">
+                    Dzięki temu projektowi rozwinąłem się najbardziej<br>
+                </h1>
+                <div class="col-12 col-md-6 offset-md-4">
+                    <div class="w-100 p-3 mt-5 rounded _card1">
+                        <p class="display-6 text-center">
+                            Sqmaj CRM
+                        </p>
+                        <hr>
+                        <p class="lead text-justify">
+                            Jest to system CRM stworzony na zamówienie dla firmy Pigment ze Szczecina nad którym
+                            spędziłem wiele tygodni projektując go od podstaw.
+                        </p>
+                        <p class="h3"><strong>Etap I</strong></p>
+                        <p class="lead text-justify">
+                            Spotkanie z klientem, ustalenie potrzeb, wymagań oraz szczegółów projektu...
+                        </p>
+                        <p class="text-end">
+                            <a href="sqmaj.html" class="_text-accent">Czytaj dalej...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
             <div class="col-md-5">
-                <img src="img/hero_2.png" alt="Hero" class="img-fluid vh-100 float-end d-none d-md-block">
+                <img src="img/section_3.png" alt="Hero" class="img-fluid vh-100 float-end d-none d-lg-block">
             </div>
         </div>
     </div>
+    <!-- ========== /SECTION 3 ========== !-->
+
+    <!-- ========== SECTION 4 - KONTAKT ========== !-->
+    <a name="contact"></a>
+    <div class="container-fluid vh-100 d-flex align-items-center _section4">
+        <div class="col-12 col-md-6 offset-md-3">
+            <h1 class="text-center">Kontakt</h1><br><br>
+            <div class=" offset-3 offset-md-4 _section4-1">
+                <p class="lead">Hubert Szymański</p>
+                <p class="lead">h.szymanski@cx-anew.com</p>
+                <p class="lead"><a href="http://cx-anew.com" class="_text-accent" target="_blank">http://cx-anew.com</a>
+                </p>
+                <p class="lead">Szczecin</p>
+            </div>
+        </div>
+    </div>
+    <!-- ========== /SECTION 4 ========== !-->
 </body>
 
 </html>
